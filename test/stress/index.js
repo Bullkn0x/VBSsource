@@ -13,7 +13,6 @@ const SOURCE_TYPES = [
   'Color Source',
   'Image Slide Show',
   'Browser Source',
-  'Ad Layer',
   'Media Source',
   'Text (GDI+)',
   'Display Capture',
