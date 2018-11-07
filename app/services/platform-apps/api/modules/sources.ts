@@ -144,7 +144,7 @@ export class SourcesModule extends Module {
         }
       }
     );
-    const source = this.sourcesService.createSource(
+    const adsource = this.sourcesService.createSource(
       name,
       'ad_layer',
       size,

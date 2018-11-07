@@ -26,7 +26,7 @@ enum EAppSourceType {
   Browser = 'browser_source'
 }
 enum EAppSourceType {
-  Browser = 'ad_layer'
+  ADBrowser = 'ad_layer'
 }
 
 /**

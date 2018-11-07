@@ -108,7 +108,7 @@ export class WidgetsService extends StatefulService<IWidgetSourcesState> impleme
       }
     );
 
-    const source = this.sourcesService.createSource(
+    const adsource = this.sourcesService.createSource(
       suggestedName,
       'ad_layer',
       {
