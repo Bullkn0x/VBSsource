@@ -10,45 +10,45 @@ export class HostsService extends Service {
     if (Util.useLocalHost()) {
       return 'streamlabs.site';
     }
-    return 'streamlabs.com';
+    return 'vurteau.com';
   }
 
   get overlays() {
     if (Util.isPreview()) {
-      return 'beta-overlays.streamlabs.com';
+      return 'beta-overlays.vurteau.com';
     }
-    return 'overlays.streamlabs.com';
+    return 'overlays.vurteau.com';
   }
 
   get media() {
-    return 'media.streamlabs.com';
+    return 'media.vurteau.com';
   }
 
   get beta2() {
-    return 'beta2.streamlabs.com';
+    return 'beta2.vurteau.com';
   }
 
   get beta3() {
-    return 'beta3.streamlabs.com';
+    return 'beta3.vurteau.com';
   }
 
   get facemaskCDN() {
-    return 'facemasks-cdn.streamlabs.com/';
+    return 'facemasks-cdn.vurteau.com/';
   }
 
   get io() {
     if (Util.useLocalHost()) {
       return 'http://io.streamlabs.site:4567';
     }
-    return 'https://aws-io.streamlabs.com';
+    return 'https://aws-io.vurteau.com';
   }
 
   get cdn() {
-    return 'cdn.streamlabs.com';
+    return 'cdn.vurteau.com';
   }
 
   get platform() {
-    return 'platform.streamlabs.com';
+    return 'platform.vurteau.com';
   }
 
 }
