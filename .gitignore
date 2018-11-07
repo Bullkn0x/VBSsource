@@ -9,7 +9,6 @@ text-freetype2/
 /data/
 dist/
 test-dist/
-bundles/
 node-obs/
 node-boost/
 electron.sln
