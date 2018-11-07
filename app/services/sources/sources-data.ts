@@ -20,12 +20,6 @@ export const SourceDisplayData = (): { [key: string]: ISourceDisplayData } => ({
   },
   browser_source: {
     name: $t('Browser Source'),
-    description: $t('Allows you to add web-based content as a source, such as web pages and Flash SWFs.'),
-    demoFilename: 'browser-source.png',
-    supportList: [$t('Websites'), $t('Third party widgets'), 'HTML']
-  },
-  ad_layer: {
-    name: $t('Ad Layer'),
     description: $t('Allows you to add Vurteau Ads to your stream.'),
     demoFilename: 'browser-source.png',
     supportList: [$t('Websites'), $t('Embedded Ads'), 'HTML']

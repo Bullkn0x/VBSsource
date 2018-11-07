@@ -262,9 +262,8 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
     const obsAvailableTypes = obs.InputFactory.types();
     const whitelistedTypes: IObsListOption<TSourceType>[] = [
       { description: 'Image', value: 'image_source' },
-      { description: 'Ad Source', value: 'color_source' },
-      { description: 'Browser Source', value: 'browser_source' },
-      { description: 'Ad Layer', value: 'ad_layer' },
+      { description: 'Color Source', value: 'color_source' },
+      { description: 'Ad Layer', value: 'browser_source' },
       { description: 'Media Source', value: 'ffmpeg_source' },
       { description: 'Image Slide Show', value: 'slideshow' },
       { description: 'Text (GDI+)', value: 'text_gdiplus' },
