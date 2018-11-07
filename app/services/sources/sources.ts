@@ -138,11 +138,6 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
 
     if (type === 'browser_source') {
       if (settings.shutdown === void 0) settings.shutdown = true;
-      if (settings.url === void 0) settings.url = 'https://streamlabs.com/browser-source';
-    }
-
-    if (type === 'ad_layer') {
-      if (settings.shutdown === void 0) settings.shutdown = true;
       if (settings.url === void 0) settings.url = 'http://192.168.168.200:3001';
     }
 

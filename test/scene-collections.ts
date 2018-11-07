@@ -21,8 +21,8 @@ useSpectron({
   beforeAppStartCb: async t => {
     const dataDir = path.resolve(__dirname, '..', '..', 'test', 'data');
 
-    fs.mkdirSync(path.join(t.context.cacheDir, 'slobs-client'));
-    const sceneCollectionsPath = path.join(t.context.cacheDir, 'slobs-client', 'SceneCollections');
+    fs.mkdirSync(path.join(t.context.cacheDir, 'vbs-client'));
+    const sceneCollectionsPath = path.join(t.context.cacheDir, 'vbs-client', 'SceneCollections');
     fs.mkdirSync(sceneCollectionsPath);
 
     await copyFile(

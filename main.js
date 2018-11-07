@@ -7,10 +7,10 @@ const pjson = require('./package.json');
 if (pjson.env === 'production') {
   process.env.NODE_ENV = 'production';
 }
-if (pjson.name === 'slobs-client-preview') {
+if (pjson.name === 'vbs-client-preview') {
   process.env.SLOBS_PREVIEW = true;
 }
-if (pjson.name === 'slobs-client-ipc') {
+if (pjson.name === 'vbs-client-ipc') {
   process.env.SLOBS_IPC = true;
 }
 process.env.SLOBS_VERSION = pjson.version;
@@ -284,7 +284,7 @@ function startApp() {
 if (process.env.SLOBS_CACHE_DIR) {
   app.setPath('appData', process.env.SLOBS_CACHE_DIR);
 }
-app.setPath('userData', path.join(app.getPath('appData'), 'slobs-client'));
+app.setPath('userData', path.join(app.getPath('appData'), 'vbs-client'));
 
 app.setAsDefaultProtocolClient('slobs');
 
