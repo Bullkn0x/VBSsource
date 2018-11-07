@@ -22,5 +22,5 @@
   "Enable VSync in your game": "VSync'yi oyun içinde aktif edin",
   "Disable FreeSync or GSync in your Driver": "Freesync ya da GSync'yi grafik kartınızın programından kapatın",
   "Lower graphics settings until you stop lagging frames": "Grafik seviyesini en aşağılara çekerek bu durumdan kurtulabilirsiniz",
-  "Disable hardware decoding under any media sources(This will slightly increase cpu over gpu)": "Medya kaynaklarını kullanan dekoder cihazınızı kapatın(CPU ve GPU kullanımı artacaktır)"
+  "Disable hardware decoding under any Media Sources(This will slightly increase cpu over gpu)": "Medya kaynaklarını kullanan dekoder cihazınızı kapatın(CPU ve GPU kullanımı artacaktır)"
 }

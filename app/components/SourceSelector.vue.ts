@@ -42,6 +42,7 @@ const sourceIconMap = {
   wasapi_output_capture: 'icon-audio',
   monitor_capture: 'fas fa-desktop',
   browser_source: 'fas fa-globe',
+  ad_layer: 'fas fa-globe',
   game_capture: 'fas fa-gamepad',
   scene: 'far fa-object-group',
   color_source: 'fas fa-fill',

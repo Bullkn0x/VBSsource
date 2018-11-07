@@ -1,7 +1,8 @@
 {
  "Image": "Image",
- "Color Source": "Color Source",
+ "Ad Source": "Ad Source",
  "Browser Source": "Browser Source",
+ "Ad Layer": "Ad Layer",
  "Media Source": "Media Source",
  "Image Slide Show": "Image Slide Show",
  "Text (GDI+)": "Text (GDI+)",

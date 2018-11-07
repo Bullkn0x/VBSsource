@@ -22,8 +22,9 @@ const sourceTypes = [
   'Image Slide Show',
   'Media Source',
   'Text (GDI+)',
-  'Color Source',
+  'Colorz Source',
   'Browser Source',
+  'Ad Layer',
 ];
 
 

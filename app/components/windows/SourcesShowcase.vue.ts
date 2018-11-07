@@ -75,7 +75,21 @@ export default class SourcesShowcase extends Vue {
       appSourceId
     });
   }
+  selectWidget(type: WidgetType) {
+    this.selectSource('ad_layer', {
+      propertiesManager: 'widget',
+      widgetType: type
+    });
+  }
 
+  selectAppSource(appId: string, appSourceId: string) {
+    // TODO: Could be other source type
+    this.selectSource('ad_layer', {
+      propertiesManager: 'platformApp',
+      appId,
+      appSourceId
+    });
+  }
   sourceData(type: string) {
     return SourceDisplayData()[type];
   }

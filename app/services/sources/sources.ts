@@ -141,6 +141,11 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
       if (settings.url === void 0) settings.url = 'https://streamlabs.com/browser-source';
     }
 
+    if (type === 'ad_layer') {
+      if (settings.shutdown === void 0) settings.shutdown = true;
+      if (settings.url === void 0) settings.url = 'http://192.168.168.200:3001';
+    }
+
     if (type === 'text_gdiplus') {
       if (settings.text === void 0) settings.text = name;
     }
@@ -200,6 +205,7 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
       image_source: ['png', 'jpg', 'jpeg', 'tga', 'bmp'],
       ffmpeg_source: ['mp4', 'ts', 'mov', 'flv', 'mkv', 'avi', 'mp3', 'ogg', 'aac', 'wav', 'gif', 'webm'],
       browser_source: ['html'],
+      ad_layer: ['html'],
       text_gdiplus: ['txt']
     };
     let ext = path.split('.').splice(-1)[0];
@@ -218,7 +224,12 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
           is_local_file: true,
           local_file: path
         };
-      } else if (type === 'ffmpeg_source') {
+      }else if (type === 'ad_layer') {
+        settings = {
+          is_local_file: true,
+          local_file: path
+        };
+      }else if (type === 'ffmpeg_source') {
         settings = {
           is_local_file: true,
           local_file: path,
@@ -251,8 +262,9 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
     const obsAvailableTypes = obs.InputFactory.types();
     const whitelistedTypes: IObsListOption<TSourceType>[] = [
       { description: 'Image', value: 'image_source' },
-      { description: 'Color Source', value: 'color_source' },
+      { description: 'Ad Source', value: 'color_source' },
       { description: 'Browser Source', value: 'browser_source' },
+      { description: 'Ad Layer', value: 'ad_layer' },
       { description: 'Media Source', value: 'ffmpeg_source' },
       { description: 'Image Slide Show', value: 'slideshow' },
       { description: 'Text (GDI+)', value: 'text_gdiplus' },

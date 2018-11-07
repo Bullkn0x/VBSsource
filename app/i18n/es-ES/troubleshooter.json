@@ -22,5 +22,5 @@
   "Enable VSync in your game": "Activa la Sincronización Vertical en el juego",
   "Disable FreeSync or GSync in your Driver": "Deshabilita FreeSync o GSync en tu Controlador",
   "Lower graphics settings until you stop lagging frames": "Reduce los ajustes de gráficos hasta que cese el retraso de codificación de fotogramas",
-  "Disable hardware decoding under any media sources(This will slightly increase cpu over gpu)": "Deshabilita la decodificación por software en todas las fuentes (Esto aumentará ligeramente el uso de la cpu sobre el de la gpu)"
+  "Disable hardware decoding under any Media Sources(This will slightly increase cpu over gpu)": "Deshabilita la decodificación por software en todas las fuentes (Esto aumentará ligeramente el uso de la cpu sobre el de la gpu)"
 }

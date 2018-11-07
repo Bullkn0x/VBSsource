@@ -270,7 +270,7 @@ export class AudioService extends StatefulService<IAudioSourcesState> implements
       }
     );
 
-    /* This is useful for media sources since the volmeter will abruptly stop
+    /* This is useful for Media Sources since the volmeter will abruptly stop
      * sending events in the case of hiding the source. It might be better
      * to eventually just hide the mixer item as well though */
     function volmeterCheck() {

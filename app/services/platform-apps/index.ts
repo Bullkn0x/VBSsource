@@ -25,6 +25,9 @@ const DEV_PORT = 8081;
 enum EAppSourceType {
   Browser = 'browser_source'
 }
+enum EAppSourceType {
+  Browser = 'ad_layer'
+}
 
 /**
  * Presentational data for the sources showcase in SLOBS

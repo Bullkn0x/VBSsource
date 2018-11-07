@@ -108,6 +108,26 @@ export class WidgetsService extends StatefulService<IWidgetSourcesState> impleme
       }
     );
 
+    const source = this.sourcesService.createSource(
+      suggestedName,
+      'ad_layer',
+      {
+        url: widget.url(
+          this.hostsService.streamlabs,
+          this.userService.widgetToken,
+          this.userService.platform.type
+        ),
+        width: widget.width,
+        height: widget.height
+      },
+      {
+        propertiesManager: 'widget',
+        propertiesManagerSettings: {
+          widgetType: type
+        }
+      }
+    );
+
     const sceneItem = scene.addSource(source.sourceId);
 
     // Give a couple seconds for the resize to propagate

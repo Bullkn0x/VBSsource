@@ -102,7 +102,7 @@ function getFacemaskDataDir() {
 // ---------------------------------------------------------------------------
 // addMediaSource : Create a Media Source and set it to play a video
 async function addMediaSource(t, sourceName) {
-  // create a media source
+  // create a Media Source
   await addSource(t, 'Media Source', sourceName, false);
 
   // what media
@@ -123,7 +123,7 @@ async function addMediaSource(t, sourceName) {
 const IMAGE_ONEFACE = 1;
 const IMAGE_MANYFACES = 2;
 async function addImageSource(t, sourceName, which = IMAGE_ONEFACE) {
-  // create a media source
+  // create a Media Source
   await addSource(t, 'Image', sourceName, false);
 
   // which image
@@ -143,7 +143,7 @@ async function addImageSource(t, sourceName, which = IMAGE_ONEFACE) {
 // ---------------------------------------------------------------------------
 // addVideoCaptureDevice : Make a video capture device
 async function addVideoCaptureDevice(t, sourceName) {
-  // create a media source
+  // create a Media Source
   await addSource(t, 'Video Capture Device', sourceName, false);
 }
 
@@ -304,7 +304,7 @@ async function drawingModeTest(t, drawMode) {
   // start the test pipe server
   startTestPipeServer();
 
-  // media source
+  // Media Source
   await addImageSource(t, sourceName);
 
   // facemask filter
@@ -360,7 +360,7 @@ test('Remove Filter', async t => {
   // start the test pipe server
   startTestPipeServer();
 
-  // media source
+  // Media Source
   await addMediaSource(t, sourceName);
 
   // facemask filter
@@ -392,7 +392,7 @@ test('Face Detection - Basic', async t => {
   // start the test pipe server
   startTestPipeServer();
 
-  // media source
+  // Media Source
   await addImageSource(t, sourceName);
 
   // facemask filter
@@ -431,7 +431,7 @@ test('Face Detection - Basic', async t => {
   // start the test pipe server
   startTestPipeServer();
 
-  // media source
+  // Media Source
   await addMediaSource(t, sourceName);
 
   // facemask filter
@@ -472,7 +472,7 @@ test('Performance', async t => {
   // set fps to 60
   await setFps60(t);
 
-  // media source
+  // Media Source
   await addMediaSource(t, sourceName);
 
   // facemask filter

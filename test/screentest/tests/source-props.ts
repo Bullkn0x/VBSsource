@@ -13,6 +13,7 @@ useSpectron({ restartAppAfterEachTest: false, afterStartCb: async t => {
     'image_source',
     'color_source',
     'browser_source',
+    'ad_layer',
     'slideshow',
     'ffmpeg_source',
     'text_gdiplus',
@@ -57,6 +58,11 @@ test('color_source', async t => {
 
 test('browser_source', async t => {
   showSourceProps('browser_source')
+  t.pass();
+});
+
+test('ad_layer', async t => {
+  showSourceProps('ad_layer')
   t.pass();
 });
 

@@ -20,7 +20,7 @@ export class VideoNode extends Node<ISchema, IContext> {
   async save(context: IContext) {
     const filePath = context.sceneItem.getObsInput().settings['local_file'];
 
-    // Don't bother saving media sources that don't have
+    // Don't bother saving Media Sources that don't have
     // a file currently loaded
     if (!filePath) return;
 

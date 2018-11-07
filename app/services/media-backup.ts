@@ -94,7 +94,7 @@ export class MediaBackupService extends StatefulService<IMediaBackupState> {
         });
       });
     } catch (e) {
-      // Lots of people have media sources that point to files that no
+      // Lots of people have Media Sources that point to files that no
       // longer exist.  We want to silently do nothing in this scenario.
       console.warn(`[Media Backup] Error fetching stats for: ${filePath}`);
       return null;

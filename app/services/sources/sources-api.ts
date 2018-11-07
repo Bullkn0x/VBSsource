@@ -86,6 +86,7 @@ export type TSourceType =
   'image_source' |
   'color_source' |
   'browser_source' |
+  'ad_layer' |
   'slideshow' |
   'ffmpeg_source' |
   'text_gdiplus' |

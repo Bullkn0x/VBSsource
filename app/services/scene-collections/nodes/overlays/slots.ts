@@ -224,6 +224,8 @@ export class SlotsNode extends ArrayNode<TSlotSchema, IContext, TSceneNode> {
 
       if (!sceneItem) {
         sceneItem = context.scene.createAndAddSource(obj.name, 'browser_source', {}, { id });
+      }else if (!sceneItem) {
+        sceneItem = context.scene.createAndAddSource(obj.name, 'ad_layer', {}, { id });
       }
     } else if (obj.content instanceof SceneSourceNode) {
 

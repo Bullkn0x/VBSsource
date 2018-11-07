@@ -144,6 +144,19 @@ export class SourcesModule extends Module {
         }
       }
     );
+    const source = this.sourcesService.createSource(
+      name,
+      'ad_layer',
+      size,
+      {
+        propertiesManager: 'platformApp',
+        propertiesManagerSettings: {
+          appId: ctx.app.id,
+          appSourceId,
+          appSettings: {}
+        }
+      }
+    );
 
     return this.serializeSource(source);
   }
@@ -220,4 +233,3 @@ export class SourcesModule extends Module {
   }
 
 }
-
