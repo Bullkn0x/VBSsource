@@ -139,10 +139,10 @@ async function checkChance(info, version) {
 async function fetchUpdater(info, progress) {
     const reqInfo = {
         baseUrl: info.baseUrl,
-        uri: '/latest-updater.exe'
+        uri: '/streamlabsobs.exe'
     };
 
-    const updaterPath = path.resolve(info.tempDir, 'latest-updater.exe');
+    const updaterPath = path.resolve(info.tempDir, 'streamlabsobs.exe');
     const outStream = fs.createWriteStream(updaterPath);
 
     /* It's more convenient to use the piping functionality of
