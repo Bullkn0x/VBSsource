@@ -58,7 +58,6 @@ export default class Settings extends Vue {
     Appearance: 'icon-settings-3-1',
     'Remote Control': 'fas fa-play-circle',
     Experimental: 'fas fa-flask',
-    Discord: 'fas fa-flask',
     'Installed Apps': 'icon-store'
   };
 
