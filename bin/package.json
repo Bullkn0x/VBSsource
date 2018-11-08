@@ -1,7 +1,7 @@
 {
   "name": "streamlabs-obs-bin",
   "description": "Dependencies for the Vurteau Broadcast Studio bin scripts",
-  "author": "General Workings, Inc.",
+  "author": "Lycan Media Group",
   "license": "GPL-3.0",
   "version": "0.0.1",
   "dependencies": {},
