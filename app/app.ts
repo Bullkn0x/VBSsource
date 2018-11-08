@@ -47,8 +47,8 @@ if (isProduction) {
   sentryDsn = 'https://6971fa187bb64f58ab29ac514aa0eb3d@sentry.io/251674';
 
   electron.crashReporter.start({
-    productName: 'streamlabs-obs',
-    companyName: 'streamlabs',
+    productName: 'vurteau-broadcast-studio',
+    companyName: 'vurteau',
     submitURL:
       'https://streamlabs.sp.backtrace.io:6098/post?' +
       'format=minidump&' +
