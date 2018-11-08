@@ -37,8 +37,8 @@ export class CustomizationService
     enableFFZEmotes: false,
     mediaBackupOptOut: false,
     folderSelection: false,
-    experimental: {
-      // put experimental features here
+    Experimental: {
+      // put Experimental features here
     }
   };
 

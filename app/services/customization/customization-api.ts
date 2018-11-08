@@ -16,7 +16,7 @@ export interface ICustomizationServiceState {
   enableBTTVEmotes: boolean;
   enableFFZEmotes: boolean;
   mediaBackupOptOut: boolean;
-  experimental: any;
+  Experimental: any;
 }
 
 export interface ICustomizationSettings extends ICustomizationServiceState {}

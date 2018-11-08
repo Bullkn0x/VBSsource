@@ -12,7 +12,7 @@
     "allowJs": true,
     "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
+    "ExperimentalDecorators": true,
     "noImplicitThis": true,
     "removeComments": true,
     "suppressImplicitAnyIndexErrors": true,

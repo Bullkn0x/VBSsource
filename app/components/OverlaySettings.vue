@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="section">
-    <p>{{ $t('This is an experimental feature.  Use at your own risk.') }}</p>
+    <p>{{ $t('This is an Experimental feature.  Use at your own risk.') }}</p>
 
     <button
       class="button button--action"
