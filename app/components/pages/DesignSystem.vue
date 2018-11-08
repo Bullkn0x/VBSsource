@@ -1,7 +1,7 @@
 <template>
   <div class="design-system">
-    <h1>Design System</h1>
-    <p>All inclusive guide for Streamlabs OBS styles, reusable components, assets, etc</p>
+    <h1>Designs System</h1>
+    <p>All inclusive guide for Vurteau Broadcast Studio styles, reusable components, assets, etc</p>
     <div class="design-system__wrapper">
       <div class="design-system__menu">
         <a class="link link--uppercase" href="#buttons">Buttons</a>

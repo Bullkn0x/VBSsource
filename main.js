@@ -148,7 +148,7 @@ function startApp() {
     y: mainWindowState.y,
     show: false,
     frame: false,
-    title: 'Streamlabs OBS',
+    title: 'Vurteau Broadcast Studio',
   });
 
   mainWindowState.manage(mainWindow);

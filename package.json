@@ -13,8 +13,8 @@
     "start": "electron .",
     "clear-plugins": "shx rm -rf plugins",
     "package": "shx rm -rf dist && build -w --x64 --config.extraMetadata.env=production",
-    "package:preview": "shx rm -rf dist && build -w --x64 --config.extraMetadata.env=production --config.extraMetadata.name=\"vbs-client-preview\" --config.productName=\"Streamlabs OBS Preview\" --config.appId=\"com.streamlabs.slobspreview\"",
-    "package:ipc": "shx rm -rf dist && build -w --x64 --config.extraMetadata.env=production --config.extraMetadata.name=\"vbs-client-ipc\" --config.productName=\"Streamlabs OBS IPC\" --config.appId=\"com.streamlabs.slobsipc\"",
+    "package:preview": "shx rm -rf dist && build -w --x64 --config.extraMetadata.env=production --config.extraMetadata.name=\"vbs-client-preview\" --config.productName=\"Vurteau Broadcast Studio Preview\" --config.appId=\"com.streamlabs.slobspreview\"",
+    "package:ipc": "shx rm -rf dist && build -w --x64 --config.extraMetadata.env=production --config.extraMetadata.name=\"vbs-client-ipc\" --config.productName=\"Vurteau Broadcast Studio IPC\" --config.appId=\"com.streamlabs.slobsipc\"",
     "release": "yarn install --cwd bin && node bin/release.js",
     "test": "tsc -p test && ava -v",
     "clear": "shx rm -rf bundles/media",
@@ -24,7 +24,7 @@
   },
   "build": {
     "appId": "com.streamlabs.slobs",
-    "productName": "Streamlabs OBS",
+    "productName": "Vurteau Broadcast Studio",
     "icon": "media/images/icon.ico",
     "files": [
       "bundles",

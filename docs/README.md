@@ -259,8 +259,8 @@ To disable that behavior, use the `compactMode` parameter in JSON-RPC request:
 ```
 
 # Remote connections
-Streamlabs OBS allows remote connection via websokets protocol powered by [Sockjs](https://github.com/sockjs).
-To enable remote connections run Streamlabs OBS with `--adv-settings` parameter, go to `Settings->API`,
+Vurteau Broadcast Studio allows remote connection via websokets protocol powered by [Sockjs](https://github.com/sockjs).
+To enable remote connections run Vurteau Broadcast Studio with `--adv-settings` parameter, go to `Settings->API`,
 enable Websokets and check `Allow Remote Connections`.
 Use API token from this window to authorize you connection:
 

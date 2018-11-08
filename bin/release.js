@@ -1,5 +1,5 @@
 /*
- * All-in-one interactive Streamlabs OBS release script.
+ * All-in-one interactive Vurteau Broadcast Studio release script.
  */
 
 const sh = require('shelljs');
@@ -155,7 +155,7 @@ async function uploadS3File(name, filePath) {
  */
 async function runScript() {
   info(colors.magenta('|-------------------------------------------|'));
-  info(colors.magenta('| Streamlabs OBS Interactive Release Script |'));
+  info(colors.magenta('| Vurteau Broadcast Studio Interactive Release Script |'));
   info(colors.magenta('|-------------------------------------------|'));
 
   if (!await confirm('Are you sure you want to release?')) sh.exit(0);

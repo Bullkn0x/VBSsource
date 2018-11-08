@@ -44,7 +44,7 @@ export async function makeScreenshots(t: any, options: IScreentestOptions) {
   // AudioSources causes a different volmeter level
   audioService.getSources().forEach(audioSource => audioSource.setMuted(true));
   // main window title may contain different project version
-  windowService.updateMainWindowOptions({ title: 'Streamlabs OBS - screentest' });
+  windowService.updateMainWindowOptions({ title: 'Vurteau Broadcast Studio - screentest' });
 
 
   if (options.window === 'child') {
