@@ -96,10 +96,10 @@
 .st0{fill:#6666ff;}
 .st1{fill:#2B383F;}
 .st2{fill:#4F5E65;}
-.st3{fill:#FAFAFA;}
+.st3{fill:#E6E6E6;}
 // .st0{fill:#42BB9F;}
 // .st1{fill:#37474F;}
 // .st2{fill:#5F6C72;}
 // .st3{fill:#32A38C;}
-// .st4{fill:#FAFAFA;}
+// .st4{fill:#E6E6E6;}
 </style>

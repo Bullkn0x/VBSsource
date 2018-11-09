@@ -24,7 +24,7 @@ export default {
   height: 100%;
   padding: 32px;
   background-color: #243E6A;
-  color: #FAFAFA;
+  color: #E6E6E6;
   font-size: 18px;
   text-align: center;
   -webkit-app-region: drag
