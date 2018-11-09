@@ -135,10 +135,11 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
   ): Source {
 
     const id: string = options.sourceId || `${type}_${uuid()}`;
-
+    //called if the source chosen is browser source. allows us to default the url to our decklink
+    //$AdLayer
     if (type === 'browser_source') {
       if (settings.shutdown === void 0) settings.shutdown = true;
-      if (settings.url === void 0) settings.url = 'http://192.168.168.200:3001';
+      if (settings.url === void 0) settings.url = 'http://192.168.168.200:3000/search/lester';
     }
 
     if (type === 'text_gdiplus') {
@@ -461,8 +462,8 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
       title: $t('Settings for ') + SourceDisplayData()[source.type].name,
       queryParams: { sourceId },
       size: {
-        width: 600,
-        height: 800
+        width: 605,
+        height: 805
       }
     });
   }
