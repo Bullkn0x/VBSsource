@@ -26,7 +26,7 @@
           class="button button--mixer"
           :disabled="loadingState"
           @click="authPlatform('mixer')">
-          <i :class="iconForPlatform('mixerz')" /> Mixer
+          <i :class="iconForPlatform('mixer')" /> Mixer
         </button>
       </div>
       <div class="setup-later" v-if="!isSecurityUpgrade">
