@@ -4,11 +4,11 @@ Vurteau-OBS allows remote management of the application via
 an RPC-based API. The API is split into several different services.
 You can access services' methods and properties by sending
 [JSON-RPC](http://www.jsonrpc.org/specification) messages to the
-named pipe `slobs`.
+named pipe `vbs`.
 
 Individual JSON-RPC requests should be separated by a single newline
 character `LF` ( ASCII code 10).  You should ensure that your JSON message does not
-contain any newline characters. Use `\n` as replacement for new lines in JSON. 
+contain any newline characters. Use `\n` as replacement for new lines in JSON.
 
 # Examples
 
@@ -287,10 +287,10 @@ Local connections to '127.0.0.1' don't require authorization.
 ## What is the difference between Sources and SceneItems?
 
 One thing to keep in mind in OBS is that sources and scene items are different things.
-A source exists outside the context of a scene. Muted is a property of a source. 
-A scene item is essentially an instance of a source in a scene. 
-The same underlying source can be in multiple scenes as a sceneitem. 
-Visibility is an attribute on a scene item. 
+A source exists outside the context of a scene. Muted is a property of a source.
+A scene item is essentially an instance of a source in a scene.
+The same underlying source can be in multiple scenes as a sceneitem.
+Visibility is an attribute on a scene item.
 So the same source can be visible in one scene and invisible in another for example.
 
 ## How to mute a source ?
@@ -340,7 +340,7 @@ First get the list of audio sources for the current scene
 
 Usually the AudioSource with the name AuxAudioDevice1 is the microphone.
 To mute it you have to call `IAudioSourceApi.setMuted(true)`.
-Use `resourceId` as the reference to `IAudioSourceApi` instance: 
+Use `resourceId` as the reference to `IAudioSourceApi` instance:
 
 ### Request
 ```

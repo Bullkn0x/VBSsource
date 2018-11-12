@@ -52,7 +52,7 @@ export class TcpServerService extends PersistentStatefulService<ITcpServersSetti
     token: '',
     namedPipe: {
       enabled: true,
-      pipeName: 'slobs'
+      pipeName: 'vbs'
     },
     websockets: {
       enabled: false,
