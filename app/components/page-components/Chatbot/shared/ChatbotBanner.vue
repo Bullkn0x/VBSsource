@@ -3,7 +3,7 @@
   <div>
     <i class="icon-information" />
     <span>
-      Don't forget to mod streamlabs chatbot by typing <span class="mod-chat-banner__code-highlight">/mod streamlabs</span> in your chat.
+      Don't forget to mod Vurteau ChatMaster by typing <span class="mod-chat-banner__code-highlight">/mod Vurteau</span> in your chat.
     </span>
   </div>
   <i class="icon-close cursor--pointer" @click="onCloseBannerHandler"></i>

@@ -26,7 +26,7 @@ export default class AppPlatformDeveloperSettings extends Vue {
   appTokenMetadata = metadata.text({
     title: 'App Token',
     description: 'This token allows you app to authenticate with the ' +
-      'streamlabs API.  Visit dev-platform.streamlabs.com to create a developer account ' +
+      'Vurteau API.  Visit dev.Vurteau.com to create a developer account ' +
       'and get a test app token.'
   });
 
@@ -60,7 +60,7 @@ export default class AppPlatformDeveloperSettings extends Vue {
       this.error = error;
     } catch (e) {
       this.error = 'There was an error loading this app, please try again ' +
-        'or contact the Streamlabs development team for assistance.';
+        'or contact the Vurteau development team for assistance.';
     }
 
     this.loading = false;
@@ -75,7 +75,7 @@ export default class AppPlatformDeveloperSettings extends Vue {
       this.error = error;
     } catch (e) {
       this.error = 'There was an error loading this app, please try again ' +
-        'or contact the Streamlabs development team for assistance.';
+        'or contact the Vurteau development team for assistance.';
     }
 
     this.loading = false;

@@ -48,7 +48,7 @@ export default class Connect extends Vue {
   }
 
   contactSupport() {
-    electron.remote.shell.openExternal('https://support.streamlabs.com');
+    electron.remote.shell.openExternal('https://vurteau.com/support');
   }
 
 }

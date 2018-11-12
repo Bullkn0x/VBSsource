@@ -41,7 +41,7 @@ export interface IPlatformService {
 
 export interface IPlatformAuth {
   widgetToken: string;
-  apiToken: string; // Streamlabs API Token
+  apiToken: string; // Vurteau API Token
   platform: {
     type: TPlatform;
     username: string;

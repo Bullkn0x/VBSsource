@@ -249,7 +249,7 @@ export class FacemasksService extends PersistentStatefulService<IFacemasksServic
       if (availableMasks.length) {
         const testMask = availableMasks[Math.floor(Math.random() * availableMasks.length)];
         this.enqueueAlert({
-          name: 'Streamlabs',
+          name: 'Vurteau',
           formattedAmount: '$10.00',
           facemask: testMask,
           message: 'This is a test Face Mask donation alert'
