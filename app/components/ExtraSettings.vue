@@ -2,7 +2,7 @@
 <div>
   <div class="section">
     <div class="section-content">
-      <p>{{ $t('If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.')}}</p>
+      <p>{{ $t('If you are experiencing issues with VBS, please try deleting your cache directory.  This will result in losing your scene configuration and settings, but may resolve your issue.')}}</p>
       <div class="input-container">
         <a class="link" @click="showCacheDir">
           <i class="icon-view" /> <span>{{ $t('Show Cache Directory')}}</span>
